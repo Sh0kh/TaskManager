@@ -182,7 +182,7 @@
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
     .Wrapper__card__smallCard {
         flex-direction: column;
         align-items: flex-start;
@@ -190,6 +190,9 @@
     }
 
     .Card__grid {
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 5px;
         width: 100%;
     }
 
